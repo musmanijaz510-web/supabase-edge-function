@@ -1,0 +1,17 @@
+{
+  "name": "supabase-edge-function",
+  "version": "1.0.0",
+  "description": "Edge Function that accepts POST to insert entries and GET to fetch all entries from the `entries` table.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "supabase": "\"supabase\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "supabase": "^2.54.11"
+  }
+}
