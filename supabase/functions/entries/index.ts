@@ -68,6 +68,7 @@ serve(async (req: Request) => {
             "x-webhook-secret": strapiWebhookSecret,
           },
           body: JSON.stringify({
+            id: data?.id,
             title,
             description,
             timestamp: new Date().toISOString(),
